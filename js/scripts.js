@@ -1,3 +1,5 @@
+console.log('Hello from js/scripts.js!');
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
