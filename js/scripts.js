@@ -3,7 +3,7 @@ console.log('Hello from js/scripts.js!');
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
-const btn = document.querySelector('button');
+const btn = document.querySelector('.dark');
 const overlay = document.querySelector('.overlay');
 
 /* Looping through images */
@@ -20,6 +20,8 @@ for(let i = 1; i <= 5; i++) {
 /* Wiring up the Darken/Lighten button */
 
 btn.onclick = function() {
+  console.log("hello");
+
   const btnClass = btn.getAttribute('class');
   if(btnClass === 'dark') {
     btn.setAttribute('class','light');
